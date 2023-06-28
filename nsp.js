@@ -14,8 +14,8 @@ class Particle {
     this.radius = radius;
     this.color = color;
     this.velocity = {
-      x: (Math.random() - 0.9) * 2, // Random x velocity between -1 and 1
-      y: (Math.random() - 0.9) * 2, // Random y velocity between -1 and 1
+      x: (Math.random() - 100) * 2, // Random x velocity between -1 and 1
+      y: (Math.random() - 100) * 2, // Random y velocity between -1 and 1
     };
   }
 
